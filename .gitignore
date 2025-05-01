@@ -1,0 +1,18 @@
+# Spring Boot specific
+/target
+/out
+
+# Maven
+.mvn/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
