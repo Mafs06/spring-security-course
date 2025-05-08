@@ -34,9 +34,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		return new JdbcUserDetailsManager(dataSource);
 	}
 
-    @Bean
-	public static PasswordEncoder getPasswordEncoder() {
-		return NoOpPasswordEncoder.getInstance();
-	}
+    // BCrypt is used by default (in Spring Security 5.0 and later)
 
 }
